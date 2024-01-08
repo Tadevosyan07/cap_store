@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: white;
+}
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(66, 133, 209);
+    padding: 3vh 0 3vh 0;
+    font-size: 1.6em;
+    font-family: sans-serif;
+}
+
+.topbar a{
+    text-decoration: none;
+    color: rgb(4, 1, 24);
+    transition: 200ms;
+}
+
+.topbar a:hover{
+    color: rgb(146, 164, 243);
+}
+
+#cantlog, #forgPass, #forguname, #contact, #other {
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+    font-family: sans-serif;
+    text-align: inherit;
+    width: 50vw;
+    line-height: 50px;
+    margin: 10vh 0 0 10vw;    
+}
+
